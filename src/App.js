@@ -1,7 +1,8 @@
 import React, { Fragment, useEffect } from "react";
 import { Header } from "./entities/Header/Header";
 import { getUsers } from "./services/fetchAPI";
-import { Switch, Route, Redirect } from "react-router-dom";
+import{CreatePost} from "./entities/CreatePost/CreatePost.jsx"
+//import { Switch, Route, Redirect } from "react-router-dom";
 
 import "./App.css";
 
@@ -12,14 +13,15 @@ function App() {
   return (
     <Fragment>
       <Header />
-      <Switch>
+      <CreatePost/>
+      {/* <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/about" component={AboutPage} />
         <Route exact path="/authors" component={Authors} />
         <Route path="/blog/:id" component={SingleBlogPage} />
         <Route path="/not-found" component={NotFoundPage} />
         <Redirect from="/" to="/not-found" />
-      </Switch>
+      </Switch> */}
     </Fragment>
   );
 }
