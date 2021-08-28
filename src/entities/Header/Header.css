@@ -1,0 +1,12 @@
+.navbar-header {
+  background-color: rgba(241, 42, 42, 0.747);
+
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 0;
+}
