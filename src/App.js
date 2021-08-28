@@ -16,7 +16,7 @@ function App() {
         <Route exact path="/" component={HomePage} />
         <Route path="/about" component={AboutPage} />
         <Route exact path="/authors" component={Authors} />
-        {/* <Route path="/blog/:id" component={SingleBlogPage} /> */}
+        <Route path="/blog/:id" component={SingleBlogPage} />
         <Route path="/not-found" component={NotFoundPage} />
         <Redirect from="/" to="/not-found" />
       </Switch>

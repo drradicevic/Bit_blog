@@ -1,6 +1,4 @@
 .navbar-header {
-  background-color: rgba(241, 42, 42, 0.747);
-
   text-align: center;
 }
 
@@ -9,4 +7,13 @@ nav ul {
   margin-top: 5px;
   margin-bottom: 0;
   padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+li a {
+  text-decoration: none;
 }
