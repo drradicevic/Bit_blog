@@ -1,0 +1,19 @@
+.navbar-header {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+li a {
+  text-decoration: none;
+}
