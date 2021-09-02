@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect } from "react";
 import { Header } from "./entities/Header/Header";
 import { getUsers } from "./services/fetchAPI";
-import{CreatePost} from "./entities/CreatePost/CreatePost.jsx"
+import { CreatePost } from "./entities/CreatePost/CreatePost.jsx";
 //import { Switch, Route, Redirect } from "react-router-dom";
 
 import "./App.css";
@@ -13,7 +13,7 @@ function App() {
   return (
     <Fragment>
       <Header />
-      <CreatePost/>
+      <CreatePost />
       {/* <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/about" component={AboutPage} />
