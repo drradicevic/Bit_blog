@@ -2,14 +2,14 @@ import React from "react"
 
 import "./SinglePost.css"
 
-export const SinglePost = () => {
+export const SinglePost = (props) => {
     return (
     <div>
         <h3>
-            Text Title
+            {props.postData.title}
         </h3>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, temporibus.
+            {props.postData.body}
         </p>
     </div>
 
