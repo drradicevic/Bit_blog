@@ -14,14 +14,14 @@ function App() {
     <Fragment>
       <Header />
       <CreatePost />
-      {/* <Switch>
-        <Route exact path="/" component={HomePage} />
+      {/* <Switch> */}
+      {/* <Route exact path="/" component={HomePage} />
         <Route path="/about" component={AboutPage} />
         <Route exact path="/authors" component={Authors} />
         <Route path="/blog/:id" component={SingleBlogPage} />
         <Route path="/not-found" component={NotFoundPage} />
-        <Redirect from="/" to="/not-found" />
-      </Switch> */}
+        <Redirect from="/" to="/not-found" /> */}
+      {/* </Switch> */}
     </Fragment>
   );
 }
