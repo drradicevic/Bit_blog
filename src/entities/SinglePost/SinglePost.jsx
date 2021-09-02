@@ -4,7 +4,7 @@ import "./SinglePost.css"
 
 export const SinglePost = (props) => {
     return (
-    <div>
+    <div className="wrapper">
         <h3>
             {props.postData.title}
         </h3>

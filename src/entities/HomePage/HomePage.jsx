@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import {SinglePost} from "../SinglePost/SinglePost.jsx";
 import { getBlogs } from "../../services/fetchAPI.js";
-
+import './HomePage.css';
 
 export const HomePage = () => {
     const [blogs, setBlogs] = useState([])
@@ -14,8 +14,8 @@ export const HomePage = () => {
     },[]);
 
     return (
-        <div>
-        <h3>POSTS</h3>
+        <div >
+        <h3 className="post-title">POSTS</h3>
         {
             blogs.map((blog) => <SinglePost postData={blog} />)
         }
