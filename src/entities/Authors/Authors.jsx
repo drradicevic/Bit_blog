@@ -14,7 +14,7 @@ export const Authors = () => {
 
     return ( 
         <div>
-            <h3> Authors {authors.length} </h3>
+            <h3 className="post-title"> AUTHORS ({authors.length}) </h3>
             {
                 authors.map((user, index) => <SingleAuthor key={index} authorData={user} />)
             }

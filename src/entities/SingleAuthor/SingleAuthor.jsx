@@ -7,7 +7,7 @@ export const SingleAuthor = (props) => {
         <div className="wrapper">
         <h3>
            
-            <Link to={`/authors/${props.authorData.id}`}> {props.authorData.name}</Link>
+            <Link className="title" to={`/authors/${props.authorData.id}`}> {props.authorData.name}</Link>
         </h3>
         
     </div>

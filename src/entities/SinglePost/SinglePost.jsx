@@ -8,7 +8,7 @@ export const SinglePost = (props) => {
     <div className="wrapper">
         <h3>
            
-            <Link to={`/blog/${props.postData.id}`}> {props.postData.title}</Link>
+            <Link className="title" to={`/blog/${props.postData.id}`}> {props.postData.title}</Link>
         </h3>
         <p>
             {props.postData.body}

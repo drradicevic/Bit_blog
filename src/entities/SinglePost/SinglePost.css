@@ -3,3 +3,7 @@
     margin: 0 auto;
     width: 80%;
 }
+.title {
+    text-decoration: none;
+    color: black;
+}
