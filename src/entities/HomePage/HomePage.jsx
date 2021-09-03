@@ -17,7 +17,7 @@ export const HomePage = () => {
         <div >
         <h3 className="post-title">POSTS</h3>
         {
-            blogs.map((blog) => <SinglePost postData={blog} />)
+            blogs.map((blog, index) => <SinglePost key={index} postData={blog} />)
         }
         
         </div>
