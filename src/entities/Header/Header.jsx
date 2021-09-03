@@ -1,22 +1,23 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 
 const Header = () => (
    
     <nav className='navbar-header'>
-      {/* <ul>
+       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/authors">Authors</Link></li>
         <li><Link to="/about">About</Link></li>
-      </ul> */}
+        <li><Link to="/post/new">Create new post</Link></li>
+      </ul>
 
-<ul>
+{/*<ul>
         <li><a href="/">Home</a></li>
         <li><a href="/authors">Authors</a></li>
         <li><a href="/about">About</a></li>
-      </ul>
+</ul>*/}
     </nav>
 );
 

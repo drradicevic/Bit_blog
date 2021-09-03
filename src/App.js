@@ -14,8 +14,9 @@ function App() {
   return (
     <Fragment>
       <Header />
-      <CreatePost />
+      {/*<CreatePost />*/}
       <Switch>
+        <Route exact path="/post/new" component={CreatePost} />
         <Route exact path="/" component={HomePage} />
         {/* <Route path="/about" component={AboutPage} />
         <Route exact path="/authors" component={Authors} />
