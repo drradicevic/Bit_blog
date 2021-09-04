@@ -1,8 +1,8 @@
 import { getAuthor } from "../../services/fetchAuthorPage";
 import { useState, useEffect, Fragment } from "react";
 import { Link } from "react-router-dom";
-import { AuthorName } from "../About/AuthorName/AuthorName";
-
+import { AuthorName } from "../AuthorName/AuthorName";
+import { AuthorAddress } from "../AuthorAddress/AuthorAddress";
 
 export const AuthorPage = (props) => {
 
@@ -20,8 +20,8 @@ export const AuthorPage = (props) => {
             <div className="w-75 mx-auto mt-3">
                 <p><Link to="/authors"> &#60; Back</Link></p>
                 <AuthorName author={auth} />
-                {/*<AuthorAddress author={auth} />
-                <AuthorCompany author={auth} />*/}
+                <AuthorAddress author={auth} />
+                {/*<AuthorCompany author={auth} />*/}
             </div>
         </Fragment>
         
