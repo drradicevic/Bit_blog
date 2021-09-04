@@ -1,0 +1,14 @@
+.btn-wrapper-auth {
+    position: sticky;
+    bottom: 20px;
+    right: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.btn-style-auth {
+    text-decoration: none;
+    color: black;
+  }
