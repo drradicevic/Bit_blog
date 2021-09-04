@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
 
+import "./SingleAuthor.css"
+
 
 export const SingleAuthor = (props) => {
 
     return (
-        <div className="wrapper">
+        <div className="wrapper-authors">
         <h3>
            
-            <Link className="title" to={`/authors/${props.authorData.id}`}> {props.authorData.name}</Link>
+            <Link className="title-authors" to={`/authors/${props.authorData.id}`}> {props.authorData.name}</Link>
         </h3>
         
     </div>

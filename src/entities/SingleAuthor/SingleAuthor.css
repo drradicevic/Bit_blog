@@ -1,0 +1,9 @@
+.wrapper-authors {
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    width: 80%;
+}
+.title-authors {
+    text-decoration: none;
+    color: black;
+}
