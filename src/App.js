@@ -12,9 +12,9 @@ import { About } from "./entities/About/About";
 import "./App.css";
 
 function App() {
-  useEffect(() => {
-    getBlogs();
-  });
+  // useEffect(() => {
+  //   getBlogPage();
+  // });
   return (
     <Fragment>
       <Header />

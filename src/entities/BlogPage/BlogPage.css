@@ -1,0 +1,12 @@
+.blogPage-title {
+    text-align: center;
+}
+/* .blogPage-body {
+ 
+} */
+
+.wrapper-blogPage {
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    width: 80%;
+}
