@@ -16,13 +16,13 @@ export const BlogPage = (props) => {
         getBlogPage(props.match.params.id).then((blogs) => {
             setBlogs(blogs);
         });
-    },[]);
+    });
 
     
     useEffect (() => {
         if (blogs) {
-            getAuthor(blogs.id).
-            then(author => setAuthor(author))
+            getAuthor(blogs.id)
+            .then(author => setAuthor(author))
         }
     },[blogs])
     
@@ -43,7 +43,7 @@ export const BlogPage = (props) => {
            <p> <Link to= "/"> &#60; Back </Link></p>
             <h1 className="blogPage-title">{blogs.title}</h1>
 
-           <p> <Link> {author.name} </Link> </p>
+           <p> <Link to={`/author/${author.id}`}> {author.name} </Link> </p>
             <p className="blogPage-body">{blogs.body}</p>
             </div>
             <div className="w-75 mx-auto mt-3">
