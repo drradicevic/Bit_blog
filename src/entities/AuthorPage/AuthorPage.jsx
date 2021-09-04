@@ -3,6 +3,7 @@ import { useState, useEffect, Fragment } from "react";
 import { Link } from "react-router-dom";
 import { AuthorName } from "../AuthorName/AuthorName";
 import { AuthorAddress } from "../AuthorAddress/AuthorAddress";
+import { AuthorCompany } from "../AuthorCompany/AuthorCompany";
 
 export const AuthorPage = (props) => {
 
@@ -21,7 +22,7 @@ export const AuthorPage = (props) => {
                 <p><Link to="/authors"> &#60; Back</Link></p>
                 <AuthorName author={auth} />
                 <AuthorAddress author={auth} />
-                {/*<AuthorCompany author={auth} />*/}
+                <AuthorCompany author={auth} />
             </div>
         </Fragment>
         
