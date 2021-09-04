@@ -7,6 +7,7 @@ import { Authors } from "./entities/Authors/Authors";
 import { Switch, Route, Redirect } from "react-router-dom";
 import { BlogPage } from "./entities/BlogPage/BlogPage";
 import { getBlogPage } from "./services/fetchBlogPage";
+import { AuthorPage } from "./entities/AuthorPage/AuthorPage";
 import { About } from "./entities/About/About";
 
 import "./App.css";
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/post/new" component={CreatePost} />
         <Route exact path="/" component={HomePage} />
         <Route exact path="/authors" component={Authors} />
+        <Route exact path="/author/:id" component={AuthorPage} />
         <Route path="/blog/:id" component={BlogPage} />
         <Route path="/about" component={About} />
         {/* 
