@@ -1,4 +1,24 @@
 .post-title {
-    text-align: center;
+  text-align: center;
+}
 
+.btn-wrapper {
+  position: sticky;
+  bottom: 20px;
+  right: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+/* .button-sticky {
+  position: sticky;
+  bottom: 20px;
+  right: 20px;
+} */
+
+.btn-style {
+  text-decoration: none;
+  color: black;
 }
